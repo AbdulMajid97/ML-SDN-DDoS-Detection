@@ -1,0 +1,29 @@
+# config/config.yaml
+
+# Data Paths
+data:
+  dataset_path: "data/dataset/dataset_sdn.csv"
+  results_path: "results/"
+  tensorboard_log_dir: "runs/ddos_experiment"
+
+# Model Hyperparameters
+model:
+  deep_learning:
+    input_dim: 23         
+    hidden_layers: [64, 32, 16]
+    dropout_rate: 0.5
+    output_dim: 1
+  classic_models:
+    random_state: 42      
+
+# Training Parameters
+training:
+  batch_size: 32
+  epochs: 150
+  learning_rate: 0.001
+  test_size: 0.3
+  random_seed: 42
+
+# Logging
+logging:
+  enable_tensorboard: true
