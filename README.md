@@ -18,7 +18,7 @@ DDoS_Detection_Project/ │ ├── config/ │ └── config.yaml # Config
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/DDoS_Detection_Project.git
+   git clone https://github.com/DDoS_Detection_Project.git
    cd DDoS_Detection_Project
 Install the required Python packages:
 pip install -r requirements.txt
