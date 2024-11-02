@@ -8,7 +8,7 @@ A machine learning and deep learning-based solution to detect Distributed Denial
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.12 or higher
 - [PyTorch](https://pytorch.org/get-started/locally/) (with CUDA support if GPU acceleration is available)
 
 ### Install Dependencies
